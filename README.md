@@ -88,6 +88,8 @@ npm run dev
 For any issues or contributions, feel free to reach out:
 - GitHub: [Rafid13iit](https://github.com/Rafid13iit)
 - Email: rafidssrr.6767@gmail.com
+- Github: https://github.com/Juriez
+- Email: mahirf2577@gmail.com
 
 ---
 **🚀 Happy Coding!** 🎯
