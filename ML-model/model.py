@@ -17,10 +17,13 @@ data = pd.concat([data_fake, data_true]).sample(frac=1).reset_index(drop=True)
 
 # Text preprocessing
 def clean_text(text):
-    text = text.lower()
-    text = re.sub(r'\W', ' ', text)
-    text = re.sub(r'\s+', ' ', text)
-    return text
+    if isinstance(text, str):  # Ensure input is a string
+        text = text.lower()
+        text = re.sub(r'\W', ' ', text)
+        text = re.sub(r'\s+', ' ', text)
+        return text.strip()
+    return ""  # Return empty string if input is NaN or non-string
+
 
 data['text'] = data['text'].apply(clean_text)
 
