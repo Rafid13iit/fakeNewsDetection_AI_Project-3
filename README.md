@@ -6,8 +6,7 @@ This project aims to detect fake news using Natural Language Processing (NLP) an
 ## 🏗️ Tech Stack
 - **Frontend:** React, Vite, TailwindCSS
 - **Backend:** Express.js, Node.js
-- **Machine Learning:** Python (Scikit-learn, TensorFlow/PyTorch, NLP libraries)
-- **Database:** MongoDB / PostgreSQL (optional for storing news data)
+- **Machine Learning:** Python (Scikit-learn, NLP libraries)
 - **APIs:** News APIs for dataset collection
 
 ## 📂 Project Structure
